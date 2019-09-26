@@ -1,8 +1,8 @@
 # README
 ## How to compile:  
-1)import this zip file into eclipse  
-2)OSU library component should be included  
-3)To Run TokenizerTest with arguments:  
+1. import this zip file into eclipse  
+2. OSU library component should be included  
+3. To Run TokenizerTest with arguments:  
   Run > Run Configurations > Arguments  
   and Enter your command line arguments in the Program Arguments box.   
   Then Apply and run.  
