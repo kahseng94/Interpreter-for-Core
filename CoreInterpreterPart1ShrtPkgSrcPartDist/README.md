@@ -1,4 +1,14 @@
-# README
+# Project Description
+## Introduction
+- The goal of this project is to implement an interpreter for the programming language *Core* using Java.   
+- The Interpreter was designed to accomplish four main functions: 
+    - tokenize input 
+    - parse the tokenized input 
+    - print the inputted code with correct spacing and blocks 
+    - and finally execute the program. 
+- The Interpreter could take input files and tokenize the inputted CORE code from said files. It would then use those tokens to parse it using a recursive decent parser that could error check and output useful errors to the user. 
+- The CORE program then could be executed and return the appropriate output back to the user.
+
 ## How to compile:  
 1. import this zip file into eclipse  
 2. OSU library component should be included  
@@ -24,30 +34,4 @@ The second argument is the input data file
 The third argument is the print or not print command  
 
 Example of a command:  
-`java edu.c3341.Interpreter ../../../data/test33.txt ../../../data/test33data01.txt print  `
-
-## List of file submitted:  
-Tokenizer.java :   interface of Tokenizer for Core Interpreter project.  
-Tokenizer1.java :  Implements Tokenizer.  
-TokenKind.java :   Token kinds needed for the Core Interpreter project.  
-TokenizerTest.java :   Test a tokenizer for Core language  
-Interpreter.java :    Create an Interpreter for Core language  
-Assign.java :  Implementation of parser, printer and executor for assignment  
-Comp.java :  Implementation of parser, printer and executor for comparison statement  
-CompOp.java :  Implementation of parser, printer and executor for comparison assignment  
-Cond.java :  Implementation of parser, printer and executor for conditional  
-Decl.java :  Implementation of parser, printer and executor for declaration  
-DeclSeq.java :   Implementation of parser, printer and executor for declaration sequence  
-Exp.java :   Implementation of parser, printer and executor for expression  
-Id.java :  Implementation of parser, printer and executor for identifier  
-IdList.java :  Implementation of parser, printer and executor for identifier list  
-If.java :  Implementation of parser, printer and executor for if statement  
-In.java :  Implementation of parser, printer and executor for read/input  
-Loop.java :  Implementation of parser, printer and executor for while loop  
-No.java :  Implementation of parser, printer and executor for digit  
-Op.java :  Implementation of parser, printer and executor for operation  
-Out.java :   Implementation of parser, printer and executor for write/output  
-Prog.java :  Implementation of parser, printer and executor for beginning of the program  
-Stmt.java :  Implementation of parser, printer and executor for statement  
-StmtSeq.java :   Implementation of parser, printer and executor for statement sequence  
-Trm.java :   Implementation of parser, printer and executor for term  
+`java edu.c3341.Interpreter ../../../data/test33.txt ../../../data/test33data01.txt print  ` 
