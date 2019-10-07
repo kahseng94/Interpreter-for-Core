@@ -1,4 +1,4 @@
-# Project Description
+# Interpreter for Core 
 ## Introduction
 - The goal of this project is to implement an interpreter for the programming language *Core* using Java.   
 - The Interpreter was designed to accomplish four main functions: 
