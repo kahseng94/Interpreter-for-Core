@@ -35,3 +35,38 @@ The third argument is the print or not print command
 
 Example of a command:  
 `java edu.c3341.Interpreter ../../../data/test33.txt ../../../data/test33data01.txt print  ` 
+
+## Syntax Example
+
+
+
+    program
+
+    int X1;
+    int X2;
+    int X3;
+    
+    begin 
+        X1 = 0;
+        X2 = 1;
+        X3 = 2;
+        X4 = 25;
+        read X4;
+        write X4；
+        
+        if (X4 > X3) then 
+            X4 = X2;
+        else
+            X4 = X3;
+        end
+        
+        while (!(X1 <= X3) && (X1 < X4) or ()) loop
+            X4 = X2
+            X4 = X2 + X3;
+            X4 = X2 - X3;
+            X4 = X2 * X3;
+            X4 = X4 + 1;
+        end
+    end
+
+    
